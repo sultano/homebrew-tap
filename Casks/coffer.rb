@@ -3,7 +3,7 @@ cask "coffer" do
   name "coffer"
   desc "CLI tool for managing application configuration with GCP Secret Manager integration"
   homepage "https://github.com/sultano/coffer"
-  version "0.10.2"
+  version "0.11.0"
 
   livecheck do
     skip "Auto-generated on release."
@@ -14,22 +14,22 @@ cask "coffer" do
   on_macos do
     on_intel do
       url "https://github.com/sultano/coffer/releases/download/v#{version}/coffer_#{version}_darwin_amd64.tar.gz"
-      sha256 "118821baba1f0f5c34e69bb0cd738e70e757c180452cb173e10c307d3a274f95"
+      sha256 "0ee78d138d0f3cd94e4b99b0aa05dd1425fc1990d7ef17079a27c766f80d9afa"
     end
     on_arm do
       url "https://github.com/sultano/coffer/releases/download/v#{version}/coffer_#{version}_darwin_arm64.tar.gz"
-      sha256 "58c76baf8036ca4e20012fa95d2f5e75e789d78f5e7c36c546e7d0a1c972c9f2"
+      sha256 "4b942f4e31835b7eec7e97e935e625f14e9cbee4316dcbf93a18f4a656dad6af"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/sultano/coffer/releases/download/v#{version}/coffer_#{version}_linux_amd64.tar.gz"
-      sha256 "49c74045a0fd4dafc80935473c0598065738ae15c0c7bb01e8d694c641422b57"
+      sha256 "6220687387cf192ac067039317c1180e70d1d8bfed277b855b272e63c1ba3c4e"
     end
     on_arm do
       url "https://github.com/sultano/coffer/releases/download/v#{version}/coffer_#{version}_linux_arm64.tar.gz"
-      sha256 "182d4079da0d91706afeb2fe0cf62df4489b882045c024e47cbeb028fafffe58"
+      sha256 "49116e9fdeab487c6e31805a22fc10b09a064fd88ebae958acca487e7ef24e8a"
     end
   end
 
